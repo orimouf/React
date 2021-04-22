@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Orim Ouf\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bootstrap'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.16.1
+4 verbose npm-session d974b787f21e056e
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/bootstrap 2037ms (from cache)
+8 silly pacote tag manifest for bootstrap@latest fetched in 2069ms
+9 timing stage:loadCurrentTree Completed in 2138ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 6ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule bootstrap@4.6.0 checking installable status
+17 silly removeObsoleteDep removing bootstrap@4.6.0 from the tree as its been replaced by a newer version or is no longer required
+18 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3ms
+19 timing stage:loadIdealTree Completed in 12ms
+20 silly currentTree React
+20 silly currentTree `-- bootstrap@4.6.0
+21 silly idealTree React
+21 silly idealTree `-- bootstrap@4.6.0
+22 silly install generateActionsToTake
+23 timing stage:generateActionsToTake Completed in 6ms
+24 silly diffTrees action count 1
+25 silly diffTrees update bootstrap@4.6.0
+26 silly decomposeActions action count 10
+27 silly decomposeActions unbuild bootstrap@4.6.0
+28 silly decomposeActions remove bootstrap@4.6.0
+29 silly decomposeActions fetch bootstrap@4.6.0
+30 silly decomposeActions extract bootstrap@4.6.0
+31 silly decomposeActions preinstall bootstrap@4.6.0
+32 silly decomposeActions build bootstrap@4.6.0
+33 silly decomposeActions install bootstrap@4.6.0
+34 silly decomposeActions postinstall bootstrap@4.6.0
+35 silly decomposeActions finalize bootstrap@4.6.0
+36 silly decomposeActions refresh-package-json bootstrap@4.6.0
+37 silly install executeActions
+38 silly doSerial global-install 10
+39 verbose correctMkdir C:\wamp64\www\GoMyCode\React\_locks correctMkdir not in flight; initializing
+40 verbose makeCacheDir UID & GID are irrelevant on win32
+41 verbose lock using C:\wamp64\www\GoMyCode\React\_locks\staging-18251ac875cf2bb3.lock for C:\wamp64\www\GoMyCode\React\node_modules\.staging
+42 silly doParallel extract 1
+43 silly extract bootstrap@4.6.0
+44 silly tarball trying bootstrap@latest by hash: sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==
+45 timing audit submit Completed in 508ms
+46 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 508ms
+47 timing audit body Completed in 18ms
+48 silly extract bootstrap@latest extracted to C:\wamp64\www\GoMyCode\React\node_modules\.staging\bootstrap-942f3107 (803ms)
+49 timing action:extract Completed in 807ms
+50 silly doReverseSerial unbuild 10
+51 silly unbuild bootstrap@4.6.0
+52 info lifecycle bootstrap@4.6.0~preuninstall: bootstrap@4.6.0
+53 info lifecycle bootstrap@4.6.0~uninstall: bootstrap@4.6.0
+54 verbose unbuild rmStuff bootstrap@4.6.0 from C:\wamp64\www\GoMyCode\React\node_modules
+55 info lifecycle bootstrap@4.6.0~postuninstall: bootstrap@4.6.0
+56 timing action:unbuild Completed in 11ms
+57 silly doSerial remove 10
+58 silly remove C:\wamp64\www\GoMyCode\React\node_modules\bootstrap
+59 timing action:remove Completed in 108ms
+60 silly doSerial move 10
+61 silly doSerial finalize 10
+62 silly finalize C:\wamp64\www\GoMyCode\React\node_modules\bootstrap
+63 timing action:finalize Completed in 54ms
+64 silly doParallel refresh-package-json 1
+65 silly refresh-package-json C:\wamp64\www\GoMyCode\React\node_modules\bootstrap
+66 timing action:refresh-package-json Completed in 78ms
+67 verbose unlock done using C:\wamp64\www\GoMyCode\React\_locks\staging-18251ac875cf2bb3.lock for C:\wamp64\www\GoMyCode\React\node_modules\.staging
+68 timing stage:rollbackFailedOptional Completed in 135ms
+69 timing stage:runTopLevelLifecycles Completed in 3373ms
+70 silly saveTree React
+70 silly saveTree `-- bootstrap@4.6.0
+71 warn enoent ENOENT: no such file or directory, open 'C:\wamp64\www\GoMyCode\React\package.json'
+72 verbose enoent This is related to npm not being able to find a file.
+73 warn bootstrap@4.6.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+74 warn bootstrap@4.6.0 requires a peer of popper.js@^1.16.1 but none is installed. You must install peer dependencies yourself.
+75 warn React No description
+76 warn React No repository field.
+77 warn React No README data
+78 warn React No license field.
+79 verbose stack Error: EPERM: operation not permitted, rename 'C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json.1832879813' -> 'C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json'
+80 verbose cwd C:\wamp64\www\GoMyCode\React
+81 verbose Windows_NT 10.0.18363
+82 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Orim Ouf\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "bootstrap"
+83 verbose node v14.16.1
+84 verbose npm  v6.14.10
+85 error code EPERM
+86 error syscall rename
+87 error path C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json.1832879813
+88 error dest C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json
+89 error errno -4048
+90 error Error: EPERM: operation not permitted, rename 'C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json.1832879813' -> 'C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json'
+90 error  [OperationalError: EPERM: operation not permitted, rename 'C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json.1832879813' -> 'C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json'] {
+90 error   cause: [Error: EPERM: operation not permitted, rename 'C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json.1832879813' -> 'C:\wamp64\www\GoMyCode\React\node_modules\bootstrap\package.json'] {
+90 error     errno: -4048,
+90 error     code: 'EPERM',
+90 error     syscall: 'rename',
+90 error     path: 'C:\\wamp64\\www\\GoMyCode\\React\\node_modules\\bootstrap\\package.json.1832879813',
+90 error     dest: 'C:\\wamp64\\www\\GoMyCode\\React\\node_modules\\bootstrap\\package.json'
+90 error   },
+90 error   errno: -4048,
+90 error   code: 'EPERM',
+90 error   syscall: 'rename',
+90 error   path: 'C:\\wamp64\\www\\GoMyCode\\React\\node_modules\\bootstrap\\package.json.1832879813',
+90 error   dest: 'C:\\wamp64\\www\\GoMyCode\\React\\node_modules\\bootstrap\\package.json'
+90 error }
+91 error The operation was rejected by your operating system.
+91 error It's possible that the file was already in use (by a text editor or antivirus),
+91 error or that you lack permissions to access it.
+91 error
+91 error If you believe this might be a permissions issue, please double-check the
+91 error permissions of the file and its containing directories, or try running
+91 error the command again as root/Administrator.
+92 verbose exit [ -4048, true ]
