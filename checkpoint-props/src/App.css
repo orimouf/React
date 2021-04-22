@@ -1,0 +1,16 @@
+.App {
+  padding-top: 200px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  row-gap: 0;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+}
