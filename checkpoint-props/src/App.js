@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
       <ProfileComponent imgProfile={data.profilePic} 
-      fullName={data.fullName} profession={data.profession}
-       bio={data.bio} onClick={handleName}/>
+    fullName={data.fullName} profession={data.profession}
+     bio={data.bio} onClick={handleName}/>
     </div>
   );
 }
