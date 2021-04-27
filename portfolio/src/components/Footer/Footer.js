@@ -14,27 +14,27 @@ const codepenIcon = <FontAwesomeIcon icon={faCodepen} />
 const githubIcon = <FontAwesomeIcon icon={faGithub} />
 
 const Footer = (props) => {
-  return (
+  return ( 
     <div className="footer">
       <div className="Container footer-flex">
         <div className="Grid-2">
             <div className="icon">{phoneIcon}</div>
             <h1 className="title">Call</h1>
-            <p className="subTitle">0781289566</p>
+            <p className="subTitle">{props.phone}</p>
         </div>
         <div className="Grid-2">
             <div className="icon">{EnvelopeIcon}</div>
             <h1 className="title">Email</h1>
-            <p className="subTitle">Orim.ouf@gmail.com</p>
+            <p className="subTitle">{props.email}</p>
         </div>
         <div className="Grid-2">
             <div className="icon">{plusIcon}</div>
             <h1 className="title">Follow me on</h1>
             <div className="subTitle media-flex">
-                <a href="#">{linkedinIcon}</a>
-                <a href="#">{skypeIcon}</a>
-                <a href="#">{codepenIcon}</a>
-                <a href="#"o>{githubIcon}</a>
+                <a href={props.linkedin}>{linkedinIcon}</a>
+                <a href={props.skype}>{skypeIcon}</a>
+                <a href={props.codepen}>{codepenIcon}</a>
+                <a href={props.github}>{githubIcon}</a>
             </div>
         </div>
         <div className="Grid-2">
