@@ -1,0 +1,62 @@
+.main>div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main>div>.img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+.main>div>div>img {
+    width: 100%;
+}
+.main>div>h1 {
+    font-size: 4em;
+    color: #474444;
+    margin-bottom: 0;
+}
+.main>div>h2 {
+    margin: 0;
+    font-weight: 100;
+    color: #6c6c6c;
+}
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+.about div {
+    border-radius: 50%;  
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+.about .resume {
+    background-color: #e83556;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+.about .works {
+    background-color: #61d0d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+.about .skills {
+    background-color: #d1c926;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+.about a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.main p {
+    color: #6c6c6c;
+}

@@ -1,0 +1,39 @@
+body {
+  font-family: ui-monospace;
+  background-color: #eae5e5;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Container {
+  width: 900px;
+  margin: 0 auto;
+}
+.Grid-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; 
+  grid-row-gap: 0;
+}
+.Grid-2 {
+  display: grid;
+  align-items: center;
+  grid-gap: 10px; 
+  grid-row-gap: 0;
+  margin: 20px 0;
+}
+.App-header {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App-main {
+  min-height: 76vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+}

@@ -1,0 +1,29 @@
+.header h1 {
+    font-size: 28px;
+    color: #474444;
+    grid-row: 1;
+    grid-column: 1/4;
+    margin: 0;
+}
+.header h3 {
+    grid-row: 2;
+    grid-column: 1/4;
+    margin: 0;
+    font-weight: 100;
+    color: #6c6c6c;
+}
+.header div {
+    width: 80%;
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .a-1, .header .a-2, .header .a-3, .header .a-4 {
+    font-weight: 600;
+    color: #6c6c6c;
+}
+.header .a-1:hover, .header .a-2:hover, .header .a-3:hover, .header .a-4:hover {
+    cursor: pointer;
+    color: #61d0d4;
+}
